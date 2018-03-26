@@ -31,6 +31,17 @@ This network is originally trained on [Caffe](https://github.com/BVLC/caffe/) bu
 run `classification_demo.m` to run the network on the provided sample image.
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample_gt.png "sample depth image")
 
+## Python Version
+
+The requirements.txt file contains all dependencies for the python script
+
+```pip install -r requirements.txt```
+
+To run the code, 
+```python classification_demo.py```
+
+Caffe models used for the python code are put in the caffe_models directory
+
 ### Class Reference
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/calss_ref.png "Class Reference")
 
